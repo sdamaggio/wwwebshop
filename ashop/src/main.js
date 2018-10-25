@@ -6,6 +6,7 @@ import VueResource from 'vue-resource'
 import VueRouter from 'vue-router'
 import Home from './components/HomeItem'
 import Contacts from './components/ContactsItem'
+import Shop from './components/ShopItem'
 
 Vue.config.productionTip = false
 
@@ -17,6 +18,7 @@ const router = new VueRouter({
   base: __dirname,
   routes: [
     {path: '/', component: Home},
+    {path: '/shop', component: Shop},
     {path: '/contacts', component: Contacts}
   ]
 });
@@ -28,6 +30,7 @@ new Vue({
   <div id=app>
     <ul>
       <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/shop">Shop</router-link></li>
       <li><router-link to="/contacts">Contacts</router-link></li>
     </ul>
     <router-view></router-view>
