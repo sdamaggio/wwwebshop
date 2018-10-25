@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    
     <home></home>
-    <contacts></contacts>
   </div>
 </template>
 

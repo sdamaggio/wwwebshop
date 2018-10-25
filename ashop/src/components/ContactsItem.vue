@@ -7,10 +7,7 @@
 
 <script>
   export default {
-    name: 'contacts',
-    data() {
-      
-    }
+    name: 'contacts'
   }
 </script>
 
